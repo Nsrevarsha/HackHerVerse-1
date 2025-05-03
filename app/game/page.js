@@ -15,7 +15,7 @@ export default function HackathonTimer() {
   // Parse start time
   const startDate = new Date('2025-05-03T18:30:00');
   // Calculate end time (36 hours later)
-  const endDate = new Date(startDate.getTime() + 36 * 60 * 60 * 1000);
+  const endDate = new Date(startDate.getTime() + 24 * 60 * 60 * 1000);
   
   useEffect(() => {
     const timer = setInterval(() => {
